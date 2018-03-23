@@ -1,0 +1,2 @@
+class TradestuffController < ApplicationController
+end
