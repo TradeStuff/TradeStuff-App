@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TradeStuff-App  
   
 Step 1: Create new blank cloud9 workspace.  
