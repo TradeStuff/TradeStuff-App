@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180329061134) do
+ActiveRecord::Schema.define(version: 20180404170726) do
+
+  create_table "userinfos", force: :cascade do |t|
+    t.string "uid"
+    t.string "email"
+    t.string "phone"
+    t.string "address"
+    t.string "city"
+    t.string "state"
+    t.string "zip"
+    t.string "country"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "provider"
