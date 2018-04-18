@@ -2,6 +2,8 @@ class CreateUserinfo < ActiveRecord::Migration
   def change
     create_table :userinfos do |t|
       t.string :uid
+      t.string :fname
+      t.string :lname
       t.string :email
       t.string :phone
       t.string :address

@@ -8,3 +8,7 @@ Tradestuff::Application.routes.draw do
 
     root to: "home#show"
 end
+Tradestuff::Application.routes.draw do
+  resources :users
+  link :to => redirect('/my_account')
+end

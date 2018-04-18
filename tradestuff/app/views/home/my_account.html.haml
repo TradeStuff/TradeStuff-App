@@ -1,0 +1,48 @@
+%h1 All users
+
+
+%h2 Details about #{@userinfo.fname}
+
+%table#movies
+  %thead
+    %tr
+      %th ID
+      %th First name
+      %th Last name
+      %th email
+      %th phone
+      %th address
+      %th city
+      %th state
+      %th zip
+      %th country
+  %tbody
+      %tr
+        %td= userinfo.uid 
+        %td= userinfo.fname
+        %td= userinfo.lname
+        %td= userinfo.email
+        %td= userinfo.phone
+        %td= userinfo.address
+        %td= userinfo.city
+        %td= userinfo.state
+        %td= userinfo.zip
+        %td= userinfo.country
+
+/- = link_to 'edit', my_account_path_edit
+
+
+/- have list
+%table#movies
+  %thead
+    %tr
+      %th Item
+      %th Quantity
+  %tbody
+    - @user_item_list.each do |item|
+      %tr
+        %td= item.items.name
+        %td=item.quantity
+      
+      
+/- want list
