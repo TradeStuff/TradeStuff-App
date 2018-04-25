@@ -14,6 +14,7 @@ h1 {
   font-size: 2em;
   font-style: normal;
 }
+
 .user_nav {
     color: White;
     text-decoration: underline;
@@ -29,6 +30,55 @@ h1 {
     width: 180px;
     height: 90px;
 }
+
+.sidebar {
+    position: absolute;
+    top: 92px;
+    Left: 0;
+    width: 180px;
+    height: 90px;
+}
+
+.myAccountButton {
+    position: absolute;
+    top: 180px;
+    Left: 0;
+    width: 180px;
+    height: 90px;
+}
+
+.searchButton {
+    position: absolute;
+    top: 241px;
+    Left: 0;
+    width: 180px;
+    height: 90px;
+}
+
+.tradesButton {
+    position: absolute;
+    top: 299px;
+    Left: 0;
+    width: 180px;
+    height: 90px;
+}
+
+.haveButton {
+    position: absolute;
+    top: 364px;
+    Left: 0;
+    width: 180px;
+    height: 90px;
+}
+
+.wantButton {
+    position: absolute;
+    top: 421px;
+    Left: 0;
+    width: 180px;
+    height: 90px;
+}
+
 a {
   background: transparent;
   color: White;

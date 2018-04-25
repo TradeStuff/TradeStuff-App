@@ -12,6 +12,30 @@
     <%= image_tag("logo.png", width: '762px') %>
     </div>
     
+    <div class="sidebar">
+    <%= image_tag("Sidebar.png") %>
+    </div>
+    
+    <div class="myAccountButton">
+    <%= link_to image_tag("MyAccount.png"), home_users_account_path %>
+    </div>
+    
+    <div class="searchButton">
+    <%= image_tag("Search.png") %>
+    </div>
+    
+    <div class="tradesButton">
+    <%= image_tag("Trades.png") %>
+    </div>
+    
+    <div class="haveButton">
+    <%= image_tag("Have.png") %>
+    </div>
+    
+    <div class="wantButton">
+    <%= image_tag("Want.png") %>
+    </div>
+    
     <div class="user_nav">
       <% if current_user %>
         Signed in as <strong><%= current_user.name %></strong>!

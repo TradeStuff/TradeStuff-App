@@ -38,6 +38,8 @@ ActiveRecord::Schema.define(version: 20180404195151) do
 
   create_table "userinfos", force: :cascade do |t|
     t.string "uid"
+    t.string "fname"
+    t.string "lname"
     t.string "email"
     t.string "phone"
     t.string "address"
