@@ -48,3 +48,13 @@ end
 gem 'omniauth-facebook'
 
 gem 'haml'
+
+gem 'cucumber'
+
+gem 'capybara'
+
+gem 'gherkin'
+
+gem 'rspec'
+
+gem 'selenium-webdriver'

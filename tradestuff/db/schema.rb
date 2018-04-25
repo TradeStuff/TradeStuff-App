@@ -11,12 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180404195151) do
-=======
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20180404191400) do
->>>>>>> 6d1413a157bba3a687d98231a5506c8b1f2a1d62
 
   create_table "items", force: :cascade do |t|
     t.integer "item_id"
@@ -24,7 +19,6 @@ ActiveRecord::Schema.define(version: 20180404191400) do
     t.string  "item_desc"
   end
 
-<<<<<<< HEAD
   create_table "trades", force: :cascade do |t|
     t.string "tid"
     t.string "uid"
@@ -32,8 +26,6 @@ ActiveRecord::Schema.define(version: 20180404191400) do
     t.string "quantity"
   end
 
-=======
->>>>>>> 6d1413a157bba3a687d98231a5506c8b1f2a1d62
   create_table "user_item_list", force: :cascade do |t|
     t.integer "item_id"
     t.integer "list_id"
@@ -42,12 +34,7 @@ ActiveRecord::Schema.define(version: 20180404191400) do
     t.string  "condition"
     t.string  "photo"
     t.string  "list_type"
-<<<<<<< HEAD
   end
-=======
-=======
-ActiveRecord::Schema.define(version: 20180404170726) do
->>>>>>> 6d1413a157bba3a687d98231a5506c8b1f2a1d62
 
   create_table "userinfos", force: :cascade do |t|
     t.string "uid"
@@ -58,7 +45,6 @@ ActiveRecord::Schema.define(version: 20180404170726) do
     t.string "state"
     t.string "zip"
     t.string "country"
->>>>>>> b5bff02665c399011153bd2536005e331f8d3e42
   end
 
   create_table "users", force: :cascade do |t|

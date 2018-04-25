@@ -6,7 +6,7 @@ class UserinfoController < ApplicationController
 
   def show
     id = params[:uid] # retrieve user ID from URI route
-    @userinfo = Userinfo.find(id) # look up user by unique ID
+    @userinfo = Userinfo.find(uid) # look up user by unique ID
     # will render app/views/movies/show.<extension> by default
   end
   
@@ -17,5 +17,6 @@ class UserinfoController < ApplicationController
     @userinfo = Userinfo.create!(params[:userinfo])
     flash[:notice] = "#{@userinfo.title} was successfully created."
   end
+
 
 end

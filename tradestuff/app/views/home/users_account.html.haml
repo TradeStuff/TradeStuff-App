@@ -1,7 +1,11 @@
-%h1 All users
 
 
-%table#movies
+-#  This file is app/views/movies/index.html.haml
+%h1 All Users
+
+/= form_tag alll_path do
+
+%table#users
   %thead
     %tr
       %th ID
@@ -15,7 +19,10 @@
         %td= user.uid 
         %td= user.fname
         %td= user.email
-        %td= more(will be a link to users info)
-        %td= trade(will be a link to trade)
+        %td more(will be a link to users info)
+        %td trade(will be a link to trade)
 
-
+/- = link_to 'Add new movie', new_movie_path
+%p
+  = link_to 'Accounts', home_users_account_path 
+  = link_to 'Home', root_path
