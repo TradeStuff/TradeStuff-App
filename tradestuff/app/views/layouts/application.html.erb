@@ -9,7 +9,7 @@
   <body>
     
     <div class="logo">
-    <%= image_tag("logo.png", width: '762px') %>
+    <%= link_to image_tag("logo.png", width: '762px'), root_path %>
     </div>
     
     <div class="sidebar">
@@ -17,7 +17,11 @@
     </div>
     
     <div class="myAccountButton">
+    <% if current_user %>
     <%= link_to image_tag("MyAccount.png"), home_users_account_path %>
+    <% else %>
+    <%= link_to image_tag("MyAccount.png"), "/auth/facebook", id: "sign_in" %>
+    <% end %>
     </div>
     
     <div class="searchButton">

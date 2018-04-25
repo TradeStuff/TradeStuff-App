@@ -1724,3 +1724,735 @@ Cannot render console from 134.29.63.160! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by HomeController#show as HTML
   Rendered home/show.html.haml within layouts/application (0.4ms)
 Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 134.29.63.160 at 2018-04-25 20:24:53 +0000
+Cannot render console from 134.29.63.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 445ms (Views: 433.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.160 at 2018-04-25 20:24:54 +0000
+Cannot render console from 134.29.63.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/users_account" for 134.29.63.160 at 2018-04-25 20:25:01 +0000
+Cannot render console from 134.29.63.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
+  Rendered home/users_account.html.haml within layouts/application (17.0ms)
+Completed 200 OK in 49ms (Views: 45.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 134.29.63.156 at 2018-04-25 21:25:10 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:25:10 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-4539041b0a9e2a1faae4105074f222fa30e9eaa3bd8a2c8a1d3a5b22765139e1.js?body=1" for 134.29.63.156 at 2018-04-25 21:25:11 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:25:11 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.63.156 at 2018-04-25 21:25:37 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:25:37 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.63.156 at 2018-04-25 21:27:57 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (8.7ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:27:57 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.156 at 2018-04-25 21:27:57 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.156 at 2018-04-25 21:27:58 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-406e02416a700989310338931ae000aedbbc1b56c9b13dda9cb0f08d7a0d117e.css?body=1" for 134.29.63.156 at 2018-04-25 21:27:58 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-4539041b0a9e2a1faae4105074f222fa30e9eaa3bd8a2c8a1d3a5b22765139e1.js?body=1" for 134.29.63.156 at 2018-04-25 21:27:58 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.156 at 2018-04-25 21:27:58 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:27:58 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.156 at 2018-04-25 21:27:58 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.156 at 2018-04-25 21:27:58 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:27:58 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Sidebar-1e6ee0c1956db025390628fb677ac57abf1231eb7101005e5a01c83151b2db7a.png" for 134.29.63.156 at 2018-04-25 21:27:59 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Search-988837744f93d7715ac6a262060a1d4dd4d7f2ae1838fcf720eb66bf4ce9f45b.png" for 134.29.63.156 at 2018-04-25 21:27:59 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Trades-280a515ec45999f6aed148568fe563c961db5fed89a04d77bf331eb2ec0c834b.png" for 134.29.63.156 at 2018-04-25 21:27:59 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Want-0a74bd953b45391c933ba50dd9dd869cec5ddf5a985fcfd1980448ce92774ca9.png" for 134.29.63.156 at 2018-04-25 21:27:59 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Have-32d69aaad9fbc9ccf1ee683074b9ad3c63f3cb7e981ed748db4f8a123eb1e74b.png" for 134.29.63.156 at 2018-04-25 21:27:59 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/MyAccount-0a324f38e07ea3bc638bf511a66a5a49c0d595a8bc8a90e20f3e3e643bf955ed.png" for 134.29.63.156 at 2018-04-25 21:27:59 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:28:01 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[36mUserinfo Load (0.9ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
+  Rendered home/users_account.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 63ms (Views: 60.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:28:34 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[35mUserinfo Load (0.5ms)[0m  SELECT "userinfos".* FROM "userinfos"
+  Rendered home/users_account.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 118ms (Views: 116.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-4539041b0a9e2a1faae4105074f222fa30e9eaa3bd8a2c8a1d3a5b22765139e1.js?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-0d5af0aa77619414a450198733d7ba75425fc82061c34fb95470eb80f31563fb.css?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.156 at 2018-04-25 21:28:35 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Search-988837744f93d7715ac6a262060a1d4dd4d7f2ae1838fcf720eb66bf4ce9f45b.png" for 134.29.63.156 at 2018-04-25 21:28:36 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/MyAccount-0a324f38e07ea3bc638bf511a66a5a49c0d595a8bc8a90e20f3e3e643bf955ed.png" for 134.29.63.156 at 2018-04-25 21:28:36 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Sidebar-1e6ee0c1956db025390628fb677ac57abf1231eb7101005e5a01c83151b2db7a.png" for 134.29.63.156 at 2018-04-25 21:28:36 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Trades-280a515ec45999f6aed148568fe563c961db5fed89a04d77bf331eb2ec0c834b.png" for 134.29.63.156 at 2018-04-25 21:28:36 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Have-32d69aaad9fbc9ccf1ee683074b9ad3c63f3cb7e981ed748db4f8a123eb1e74b.png" for 134.29.63.156 at 2018-04-25 21:28:36 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Want-0a74bd953b45391c933ba50dd9dd869cec5ddf5a985fcfd1980448ce92774ca9.png" for 134.29.63.156 at 2018-04-25 21:28:36 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:29:01 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[36mUserinfo Load (4.7ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
+  Rendered home/users_account.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 84ms (Views: 77.8ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-4539041b0a9e2a1faae4105074f222fa30e9eaa3bd8a2c8a1d3a5b22765139e1.js?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-42ca2522d1f954108cf803f5d414773cbc2bc1a752c02c8278aa62908e2ec8f4.css?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Sidebar-1e6ee0c1956db025390628fb677ac57abf1231eb7101005e5a01c83151b2db7a.png" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/MyAccount-0a324f38e07ea3bc638bf511a66a5a49c0d595a8bc8a90e20f3e3e643bf955ed.png" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Search-988837744f93d7715ac6a262060a1d4dd4d7f2ae1838fcf720eb66bf4ce9f45b.png" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Have-32d69aaad9fbc9ccf1ee683074b9ad3c63f3cb7e981ed748db4f8a123eb1e74b.png" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Trades-280a515ec45999f6aed148568fe563c961db5fed89a04d77bf331eb2ec0c834b.png" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Want-0a74bd953b45391c933ba50dd9dd869cec5ddf5a985fcfd1980448ce92774ca9.png" for 134.29.63.156 at 2018-04-25 21:29:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[35mUserinfo Load (0.5ms)[0m  SELECT "userinfos".* FROM "userinfos"
+  Rendered home/users_account.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 51ms (Views: 48.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-4539041b0a9e2a1faae4105074f222fa30e9eaa3bd8a2c8a1d3a5b22765139e1.js?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-42ca2522d1f954108cf803f5d414773cbc2bc1a752c02c8278aa62908e2ec8f4.css?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:31:16 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Sidebar-1e6ee0c1956db025390628fb677ac57abf1231eb7101005e5a01c83151b2db7a.png" for 134.29.63.156 at 2018-04-25 21:31:17 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Search-988837744f93d7715ac6a262060a1d4dd4d7f2ae1838fcf720eb66bf4ce9f45b.png" for 134.29.63.156 at 2018-04-25 21:31:17 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Trades-280a515ec45999f6aed148568fe563c961db5fed89a04d77bf331eb2ec0c834b.png" for 134.29.63.156 at 2018-04-25 21:31:17 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Want-0a74bd953b45391c933ba50dd9dd869cec5ddf5a985fcfd1980448ce92774ca9.png" for 134.29.63.156 at 2018-04-25 21:31:17 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Have-32d69aaad9fbc9ccf1ee683074b9ad3c63f3cb7e981ed748db4f8a123eb1e74b.png" for 134.29.63.156 at 2018-04-25 21:31:17 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/MyAccount-0a324f38e07ea3bc638bf511a66a5a49c0d595a8bc8a90e20f3e3e643bf955ed.png" for 134.29.63.156 at 2018-04-25 21:31:17 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.63.156 at 2018-04-25 21:31:18 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:31:54 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[36mUserinfo Load (0.7ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
+  Rendered home/users_account.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:32:00 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[35mUserinfo Load (0.5ms)[0m  SELECT "userinfos".* FROM "userinfos"
+  Rendered home/users_account.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 138ms (Views: 135.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:34:42 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[36mUserinfo Load (0.8ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
+  Rendered home/users_account.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 55ms (Views: 51.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.156 at 2018-04-25 21:34:43 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:34:43 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-4539041b0a9e2a1faae4105074f222fa30e9eaa3bd8a2c8a1d3a5b22765139e1.js?body=1" for 134.29.63.156 at 2018-04-25 21:34:43 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-42ca2522d1f954108cf803f5d414773cbc2bc1a752c02c8278aa62908e2ec8f4.css?body=1" for 134.29.63.156 at 2018-04-25 21:34:43 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:34:44 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.156 at 2018-04-25 21:34:44 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.156 at 2018-04-25 21:34:44 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.156 at 2018-04-25 21:34:44 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:34:44 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.156 at 2018-04-25 21:34:44 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Trades-280a515ec45999f6aed148568fe563c961db5fed89a04d77bf331eb2ec0c834b.png" for 134.29.63.156 at 2018-04-25 21:34:45 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Want-0a74bd953b45391c933ba50dd9dd869cec5ddf5a985fcfd1980448ce92774ca9.png" for 134.29.63.156 at 2018-04-25 21:34:46 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Search-988837744f93d7715ac6a262060a1d4dd4d7f2ae1838fcf720eb66bf4ce9f45b.png" for 134.29.63.156 at 2018-04-25 21:34:46 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Have-32d69aaad9fbc9ccf1ee683074b9ad3c63f3cb7e981ed748db4f8a123eb1e74b.png" for 134.29.63.156 at 2018-04-25 21:34:46 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Sidebar-1e6ee0c1956db025390628fb677ac57abf1231eb7101005e5a01c83151b2db7a.png" for 134.29.63.156 at 2018-04-25 21:34:46 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.63.156 at 2018-04-25 21:34:51 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 134.29.63.156 at 2018-04-25 21:35:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 134.29.63.156 at 2018-04-25 21:35:05 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQCSVNH6_dAf_bO7Eb40dmtW6Yds6QIeRG63st8ROAVwzi08uJZDJXPiVd8elHfB-YtYh0EPwd0qdeSv5uq4N1w6FnqpwU1Am9upE5-yTLZFLnZUlZUCBfXqUzixZneZgFz0v_GCDkXygCiDGT-tid_uIuHuMB-GdsvWZWrL6vdBHO5tb7AAOuEGLYXD4ssMmE8QlcXqchVBkWfVmwBwmyVJ6V9QgZbRxM-VxnDvHcEq7XqjykEK3VvbEnCSqeaPLiyvJpEVH7XsKSj4hkDTr_Lih55pa5oHdwpuplpgqcNRWvf0G57q-n-ZJ_6SEMXAkYuYMp1im771sTIgeSlcgb56&state=14033fed3bc2131733e01fb183d6fa4c278c9a3a62ca070d" for 134.29.63.156 at 2018-04-25 21:35:07 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCSVNH6_dAf_bO7Eb40dmtW6Yds6QIeRG63st8ROAVwzi08uJZDJXPiVd8elHfB-YtYh0EPwd0qdeSv5uq4N1w6FnqpwU1Am9upE5-yTLZFLnZUlZUCBfXqUzixZneZgFz0v_GCDkXygCiDGT-tid_uIuHuMB-GdsvWZWrL6vdBHO5tb7AAOuEGLYXD4ssMmE8QlcXqchVBkWfVmwBwmyVJ6V9QgZbRxM-VxnDvHcEq7XqjykEK3VvbEnCSqeaPLiyvJpEVH7XsKSj4hkDTr_Lih55pa5oHdwpuplpgqcNRWvf0G57q-n-ZJ_6SEMXAkYuYMp1im771sTIgeSlcgb56", "state"=>"14033fed3bc2131733e01fb183d6fa4c278c9a3a62ca070d", "provider"=>"facebook"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["provider", "facebook"], ["uid", "1722012704488707"]]
+Redirected to https://tradestuff-nicholasburr.c9users.io/
+Completed 302 Found in 36ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-4539041b0a9e2a1faae4105074f222fa30e9eaa3bd8a2c8a1d3a5b22765139e1.js?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-42ca2522d1f954108cf803f5d414773cbc2bc1a752c02c8278aa62908e2ec8f4.css?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.156 at 2018-04-25 21:35:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Search-988837744f93d7715ac6a262060a1d4dd4d7f2ae1838fcf720eb66bf4ce9f45b.png" for 134.29.63.156 at 2018-04-25 21:35:09 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Sidebar-1e6ee0c1956db025390628fb677ac57abf1231eb7101005e5a01c83151b2db7a.png" for 134.29.63.156 at 2018-04-25 21:35:09 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Trades-280a515ec45999f6aed148568fe563c961db5fed89a04d77bf331eb2ec0c834b.png" for 134.29.63.156 at 2018-04-25 21:35:09 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Want-0a74bd953b45391c933ba50dd9dd869cec5ddf5a985fcfd1980448ce92774ca9.png" for 134.29.63.156 at 2018-04-25 21:35:09 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/MyAccount-0a324f38e07ea3bc638bf511a66a5a49c0d595a8bc8a90e20f3e3e643bf955ed.png" for 134.29.63.156 at 2018-04-25 21:35:09 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Have-32d69aaad9fbc9ccf1ee683074b9ad3c63f3cb7e981ed748db4f8a123eb1e74b.png" for 134.29.63.156 at 2018-04-25 21:35:09 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:35:12 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
+  Rendered home/users_account.html.haml within layouts/application (2.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 91ms (Views: 88.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:36:02 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[35mUserinfo Load (0.5ms)[0m  SELECT "userinfos".* FROM "userinfos"
+  Rendered home/users_account.html.haml within layouts/application (3.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 51ms (Views: 48.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-42ca2522d1f954108cf803f5d414773cbc2bc1a752c02c8278aa62908e2ec8f4.css?body=1" for 134.29.63.156 at 2018-04-25 21:36:03 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.156 at 2018-04-25 21:36:03 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:36:03 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:04 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:04 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:04 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-4539041b0a9e2a1faae4105074f222fa30e9eaa3bd8a2c8a1d3a5b22765139e1.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:04 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:04 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:04 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:05 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Trades-280a515ec45999f6aed148568fe563c961db5fed89a04d77bf331eb2ec0c834b.png" for 134.29.63.156 at 2018-04-25 21:36:07 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Sidebar-1e6ee0c1956db025390628fb677ac57abf1231eb7101005e5a01c83151b2db7a.png" for 134.29.63.156 at 2018-04-25 21:36:07 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/MyAccount-0a324f38e07ea3bc638bf511a66a5a49c0d595a8bc8a90e20f3e3e643bf955ed.png" for 134.29.63.156 at 2018-04-25 21:36:07 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Search-988837744f93d7715ac6a262060a1d4dd4d7f2ae1838fcf720eb66bf4ce9f45b.png" for 134.29.63.156 at 2018-04-25 21:36:07 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Have-32d69aaad9fbc9ccf1ee683074b9ad3c63f3cb7e981ed748db4f8a123eb1e74b.png" for 134.29.63.156 at 2018-04-25 21:36:07 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Want-0a74bd953b45391c933ba50dd9dd869cec5ddf5a985fcfd1980448ce92774ca9.png" for 134.29.63.156 at 2018-04-25 21:36:07 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/signout" for 134.29.63.156 at 2018-04-25 21:36:07 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+Redirected to https://tradestuff-nicholasburr.c9users.io/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 134.29.63.156 at 2018-04-25 21:36:08 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 73ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 134.29.63.156 at 2018-04-25 21:36:11 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 134.29.63.156 at 2018-04-25 21:36:18 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDrzPVOi-5mOYzhRe9eVvw91VOv-oOT7S_kq8TQxGpMNUqFDRB6aYqwwWzi-g__ZJ7yPhj_3FxhIVC7tFv7oidogn2cInER68PdYhiVJesIfpA4pSrTXA9Wldf9aQtQazege70EuHK9K5Wi4kr8xukOP1d0L2dfRjB2OyBV4VGPs5BIn5nMrV5kVHMSh8_tIEytzvlk8FZ4Km_wlDsTZfjsxAWWFxMvDD7cBCo-YE6V5R9B4qhtYrRPsBwWsr5-CcVhCgNoIRZeAV8dKt9gVCL3g0aA4zJkCA_YiYovwFgiyluFQlpVCgEbof9AlNNV_590pcxrSeQIhJvRhkeodJnU&state=994fa56587446ae4b2fb03e878e5c957f22a8c64a2c70a3c" for 134.29.63.156 at 2018-04-25 21:36:19 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDrzPVOi-5mOYzhRe9eVvw91VOv-oOT7S_kq8TQxGpMNUqFDRB6aYqwwWzi-g__ZJ7yPhj_3FxhIVC7tFv7oidogn2cInER68PdYhiVJesIfpA4pSrTXA9Wldf9aQtQazege70EuHK9K5Wi4kr8xukOP1d0L2dfRjB2OyBV4VGPs5BIn5nMrV5kVHMSh8_tIEytzvlk8FZ4Km_wlDsTZfjsxAWWFxMvDD7cBCo-YE6V5R9B4qhtYrRPsBwWsr5-CcVhCgNoIRZeAV8dKt9gVCL3g0aA4zJkCA_YiYovwFgiyluFQlpVCgEbof9AlNNV_590pcxrSeQIhJvRhkeodJnU", "state"=>"994fa56587446ae4b2fb03e878e5c957f22a8c64a2c70a3c", "provider"=>"facebook"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["provider", "facebook"], ["uid", "1722012704488707"]]
+Redirected to https://tradestuff-nicholasburr.c9users.io/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 134.29.63.156 at 2018-04-25 21:36:19 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.156 at 2018-04-25 21:36:20 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.156 at 2018-04-25 21:36:20 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-42ca2522d1f954108cf803f5d414773cbc2bc1a752c02c8278aa62908e2ec8f4.css?body=1" for 134.29.63.156 at 2018-04-25 21:36:20 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:21 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:21 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:21 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:21 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:21 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-4539041b0a9e2a1faae4105074f222fa30e9eaa3bd8a2c8a1d3a5b22765139e1.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:21 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.156 at 2018-04-25 21:36:21 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Search-988837744f93d7715ac6a262060a1d4dd4d7f2ae1838fcf720eb66bf4ce9f45b.png" for 134.29.63.156 at 2018-04-25 21:36:22 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Want-0a74bd953b45391c933ba50dd9dd869cec5ddf5a985fcfd1980448ce92774ca9.png" for 134.29.63.156 at 2018-04-25 21:36:22 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Have-32d69aaad9fbc9ccf1ee683074b9ad3c63f3cb7e981ed748db4f8a123eb1e74b.png" for 134.29.63.156 at 2018-04-25 21:36:22 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Sidebar-1e6ee0c1956db025390628fb677ac57abf1231eb7101005e5a01c83151b2db7a.png" for 134.29.63.156 at 2018-04-25 21:36:22 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/MyAccount-0a324f38e07ea3bc638bf511a66a5a49c0d595a8bc8a90e20f3e3e643bf955ed.png" for 134.29.63.156 at 2018-04-25 21:36:22 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Trades-280a515ec45999f6aed148568fe563c961db5fed89a04d77bf331eb2ec0c834b.png" for 134.29.63.156 at 2018-04-25 21:36:22 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/users_account" for 134.29.63.156 at 2018-04-25 21:36:25 +0000
+Cannot render console from 134.29.63.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#users_account as HTML
+  [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
+  Rendered home/users_account.html.haml within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.5ms)
