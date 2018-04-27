@@ -1,6 +1,9 @@
 class HomeController < ApplicationController
+  
   def show
+   @items = Item.all
   end
+  
   def users_account
    @userinfos = Userinfo.all
   end
@@ -13,7 +16,7 @@ class HomeController < ApplicationController
 
   
   def index
-   @userinfos = Userinfo.all
+   @userinfos = User.find params[:uid]
   end
   def create
     @userinfo = Userinfo.create!(params[:userinfo])

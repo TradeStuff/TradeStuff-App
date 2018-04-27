@@ -6,9 +6,15 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-users1 = [{:uid => '1', :fname => 'jordan', :lname => 'mullan', :email => 'Jor@gmail.com', :phone => '651-555-1324', :address => '1111 First Ln', :city => 'Mankato', :state => 'MN', :zip => '55016', :country => 'US'}]
+user1 = [{:uid => '1', :fname => 'jordan', :lname => 'mullan', :email => 'Jor@gmail.com', :phone => '651-555-1324', :address => '1111 First Ln', :city => 'Mankato', :state => 'MN', :zip => '55016', :country => 'US'}]
+
+items1 = [{:item_id => '1', :item_name => 'Hammer', :item_desc => '1982 Husky hammer with a green handle.'}]
 
 
-users1.each do |user|
+user1.each do |user|
    Userinfo.create!(user)
+end
+
+items1.each do |item|
+    Item.create!(item)
 end
