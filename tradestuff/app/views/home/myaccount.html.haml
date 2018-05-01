@@ -1,0 +1,30 @@
+-#  This file is app/views/movies/index.html.haml
+%h1 My Account
+
+%table#userinfos
+  %thead
+    %tr
+      %th Email
+      %th Phone Number
+      %th Address
+      %th City
+      %th State
+      %th Zip
+      %th Country
+      
+      
+
+
+  %tbody
+    - @userinfos.each do |user|
+      %tr
+        %td= user.email 
+        %td= user.phone
+        %td= user.address
+        %td= user.city
+        %td= user.state
+        %td= user.zip
+        %td= user.country
+-#        %td= link_to "More about #{movie.title}", movie_path(movie)
+
+= link_to 'Edit User Information', edit_userinfo_path
