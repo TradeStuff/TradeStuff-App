@@ -15,7 +15,6 @@ user1.each do |user|
    Userinfo.create!(user)
 end
 
-<<<<<<< HEAD
 
 items1 = [{ :item_id => '1', :item_name => 'Hammer', :item_desc => 'Big ham'},
             {:item_id => '2', :item_name => 'Screw driver(Phillips)', :item_desc => 'for screwing'},
@@ -34,8 +33,3 @@ items1 = [{ :item_id => '1', :item_name => 'Hammer', :item_desc => 'Big ham'},
 items1.each do |it|
    Item.create!(it)
 end
-=======
-items1.each do |item|
-    Item.create!(item)
-end
->>>>>>> e70ad0f6aae876c00045d6f50bed52763e603e76

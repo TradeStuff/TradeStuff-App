@@ -1,11 +1,7 @@
 class HomeController < ApplicationController
   
   def show
-<<<<<<< HEAD
     @items = Item.all
-=======
-   @items = Item.all
->>>>>>> e70ad0f6aae876c00045d6f50bed52763e603e76
   end
   
   def users_account

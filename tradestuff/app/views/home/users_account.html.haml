@@ -19,21 +19,58 @@
       %th Zip
       %th Country
       %th Trading
+      
+      Trade History
   %tbody
     - @userinfos.each do |user|
       %tr
-        %td= user.uid 
-        %td= user.fname
-        %td= user.lname
-        %td= user.email
-        %td= user.phone
-        %td= user.address
-        %td= user.city
-        %td= user.state
-        %td= user.zip
-        %td= user.country
+        %td= 1
+        %td= user.fname = 'Adam'
+        %td= user.lname = 'Fleischhacker'
+        %td= user.email = 'fake@email.com'
+        %td= user.phone = '098-765-4321'
+        %td= user.address = ' 456 Not Real Rd'
+        %td= user.city = 'St. Paul'
+        %td= user.state = 'MN'
+        %td= user.zip = '55117'
+        %td= user.country = 'United States'
         %td= link_to "More about #{user.uid}", root_path
-
+      // %tr
+      //   %td= 2
+      //   %td= user.fname = 'Jordan'
+      //   %td= user.lname = 'Mullan'
+      //   %td= user.email = 'jmullan@gmail.com'
+      //   %td= user.phone = '651-456-7890'
+      //   %td= user.address = '123 Fake St.'
+      //   %td= user.city = 'Mankato'
+      //   %td= user.state = 'MN'
+      //   %td= user.zip = '56001'
+      //   %td= user.country = 'United States'
+      //   %td= link_to "More about #{user.uid}", root_path
+      // %tr
+      //   %td= 3
+      //   %td= user.fname = 'Nick'
+      //   %td= user.lname = 'Burr'
+      //   %td= user.email = 'Nb@gmail.com'
+      //   %td= user.phone = '651-346-9046'
+      //   %td= user.address = '235 Skipper Ln.'
+      //   %td= user.city = 'Owatonna'
+      //   %td= user.state = 'MN'
+      //   %td= user.zip = '56789'
+      //   %td= user.country = 'United States'
+      //   %td= link_to "More about #{user.uid}", root_path
+      // %tr
+      //   %td= 4
+      //   %td= user.fname = 'Cristian'
+      //   %td= user.lname = 'Gonzalez'
+      //   %td= user.email = 'Cgonn@gmail.com'
+      //   %td= user.phone = '651-456-5774'
+      //   %td= user.address = '123 Fake St.'
+      //   %td= user.city = 'Mankato'
+      //   %td= user.state = 'MN'
+      //   %td= user.zip = '56001'
+      //   %td= user.country = 'United States'
+      //   %td= link_to "More about #{user.uid}", root_path
         
 
 %p
