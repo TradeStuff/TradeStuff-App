@@ -1,3 +1,14 @@
 %h1 Tradestuff
 
 Add stuff to this page!
+
+%table#users
+  %thead
+    %tr
+      %th Name
+      %th More about
+  %tbody
+    - @items.each do |it|
+      %tr
+        %td= it.item_name 
+        %td= link_to "More about #{it.item_name}", home_item_page_path(@item)

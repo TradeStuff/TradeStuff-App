@@ -1,0 +1,11 @@
+%h1 Items
+
+/= form_tag alll_path do
+/- @items.each do |it|
+%div.itemcard
+  %div.iuser Username:
+  %div.iname = @item.item_name 
+  %div.idesc Description:= @item.item_desc
+
+
+/- = link_to 'Add new movie', new_movie_path
