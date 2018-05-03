@@ -9,6 +9,7 @@
   %thead
     %tr
       %th ID
+<<<<<<< HEAD
       %th Rating
       %th email
       %th More info
@@ -21,6 +22,71 @@
         %td= user.email
         %td more(will be a link to users info)
         %td trade(will be a link to trade)
+=======
+      %th Name
+      %th Last Name
+      %th Email
+      %th Phone
+      %th Address
+      %th City
+      %th State
+      %th Zip
+      %th Country
+      %th Trading
+      
+      Trade History
+  %tbody
+    - @userinfos.each do |user|
+      %tr
+        %td= 1
+        %td= user.fname = 'Adam'
+        %td= user.lname = 'Fleischhacker'
+        %td= user.email = 'fake@email.com'
+        %td= user.phone = '098-765-4321'
+        %td= user.address = ' 456 Not Real Rd'
+        %td= user.city = 'St. Paul'
+        %td= user.state = 'MN'
+        %td= user.zip = '55117'
+        %td= user.country = 'United States'
+        %td= link_to "More about #{user.uid}", root_path
+      // %tr
+      //   %td= 2
+      //   %td= user.fname = 'Jordan'
+      //   %td= user.lname = 'Mullan'
+      //   %td= user.email = 'jmullan@gmail.com'
+      //   %td= user.phone = '651-456-7890'
+      //   %td= user.address = '123 Fake St.'
+      //   %td= user.city = 'Mankato'
+      //   %td= user.state = 'MN'
+      //   %td= user.zip = '56001'
+      //   %td= user.country = 'United States'
+      //   %td= link_to "More about #{user.uid}", root_path
+      // %tr
+      //   %td= 3
+      //   %td= user.fname = 'Nick'
+      //   %td= user.lname = 'Burr'
+      //   %td= user.email = 'Nb@gmail.com'
+      //   %td= user.phone = '651-346-9046'
+      //   %td= user.address = '235 Skipper Ln.'
+      //   %td= user.city = 'Owatonna'
+      //   %td= user.state = 'MN'
+      //   %td= user.zip = '56789'
+      //   %td= user.country = 'United States'
+      //   %td= link_to "More about #{user.uid}", root_path
+      // %tr
+      //   %td= 4
+      //   %td= user.fname = 'Cristian'
+      //   %td= user.lname = 'Gonzalez'
+      //   %td= user.email = 'Cgonn@gmail.com'
+      //   %td= user.phone = '651-456-5774'
+      //   %td= user.address = '123 Fake St.'
+      //   %td= user.city = 'Mankato'
+      //   %td= user.state = 'MN'
+      //   %td= user.zip = '56001'
+      //   %td= user.country = 'United States'
+      //   %td= link_to "More about #{user.uid}", root_path
+        
+>>>>>>> 3c648696aaeb64cd2cf30a19bdf454062054a642
 
 /- = link_to 'Add new movie', new_movie_path
 %p
