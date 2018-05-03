@@ -6,16 +6,13 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-user1 = [{:uid => '1', :fname => 'jordan', :lname => 'mullan', :email => 'Jor@gmail.com', :phone => '651-555-1324', :address => '1111 First Ln', :city => 'Mankato', :state => 'MN', :zip => '55016', :country => 'US'}]
-
-items1 = [{:item_id => '1', :item_name => 'Hammer', :item_desc => '1982 Husky hammer with a green handle.'}]
+users1 = [{:uid => '1', :fname => 'jordan', :lname => 'mullan', :email => 'Jor@gmail.com', :phone => '651-555-1324', :address => '1111 First Ln', :city => 'Mankato', :state => 'MN', :zip => '55016', :country => 'US'}]
 
 
-user1.each do |user|
+users1.each do |user|
    Userinfo.create!(user)
 end
 
-<<<<<<< HEAD
 
 items1 = [{ :item_id => '1', :item_name => 'Hammer', :item_desc => 'Big ham'},
             {:item_id => '2', :item_name => 'Screw driver(Phillips)', :item_desc => 'for screwing'},
@@ -34,8 +31,3 @@ items1 = [{ :item_id => '1', :item_name => 'Hammer', :item_desc => 'Big ham'},
 items1.each do |it|
    Item.create!(it)
 end
-=======
-items1.each do |item|
-    Item.create!(item)
-end
->>>>>>> e70ad0f6aae876c00045d6f50bed52763e603e76

@@ -3,9 +3,11 @@
 /= form_tag alll_path do
 /- @items.each do |it|
 %div.itemcard
-  %div.iuser Username:
-  %div.iname = @item.item_name 
-  %div.idesc Description:= @item.item_desc
+  %div.ipic= image_tag "Hammer.jpg", width: "175px", height: "120px"
+  %div.iuser User: Jordan Mullan
+  %div.iquan Qty: 3
+  %div.iname  Hammer
+  %div.idesc Description: Small tool used to apply small blows to nails and other objects.
 
 
 /- = link_to 'Add new movie', new_movie_path

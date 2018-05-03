@@ -1,13 +1,7 @@
 class HomeController < ApplicationController
-  
   def show
-<<<<<<< HEAD
     @items = Item.all
-=======
-   @items = Item.all
->>>>>>> e70ad0f6aae876c00045d6f50bed52763e603e76
   end
-  
   def users_account
    @userinfos = Userinfo.all
   end
@@ -18,13 +12,20 @@ class HomeController < ApplicationController
   end
   
   def item_page
-    id = params[:item_id]
-    @item = Movie.find(id)
+  end
+  
+  def item1
+  end
+  
+  def item2
+  end
+  
+  def item3
   end
 
   
   def index
-   @userinfos = User.find params[:uid]
+   @userinfos = Userinfo.all
   end
   def create
     @userinfo = Userinfo.create!(params[:userinfo])

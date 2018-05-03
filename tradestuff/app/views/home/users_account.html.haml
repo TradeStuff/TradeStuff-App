@@ -9,35 +9,20 @@
   %thead
     %tr
       %th ID
-      %th Name
-      %th Last Name
-      %th Email
-      %th Phone
-      %th Address
-      %th City
-      %th State
-      %th Zip
-      %th Country
-      %th Trading
+      %th Rating
+      %th email
+      %th More info
+      %th trading
   %tbody
     - @userinfos.each do |user|
       %tr
         %td= user.uid 
         %td= user.fname
-        %td= user.lname
         %td= user.email
-        %td= user.phone
-        %td= user.address
-        %td= user.city
-        %td= user.state
-        %td= user.zip
-        %td= user.country
-        %td= link_to "More about #{user.uid}", root_path
+        %td more(will be a link to users info)
+        %td trade(will be a link to trade)
 
-        
-
+/- = link_to 'Add new movie', new_movie_path
 %p
   = link_to 'Accounts', home_users_account_path 
   = link_to 'Home', root_path
-
-  

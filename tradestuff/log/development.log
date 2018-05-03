@@ -2458,7 +2458,6 @@ Processing by HomeController#users_account as HTML
 Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.5ms)
 
 
-<<<<<<< HEAD
 Started GET "/" for 134.29.87.116 at 2018-04-27 18:41:31 +0000
 Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
@@ -3735,1062 +3734,1932 @@ Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.4ms)
 
 Started GET "/assets/application.self-dc1cd91c01823dc42d8c31e35d86287f25237dc6130bfabe8af26637e25bc9b6.css?body=1" for 68.232.232.70 at 2018-05-01 00:46:43 +0000
 Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-=======
-Started GET "/" for 134.29.63.157 at 2018-04-27 18:24:58 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:10:25 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (11.8ms)
-Completed 200 OK in 539ms (Views: 524.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/assets/home.self-aba7181cd7255bfd99a690c9900266bbcfbee2cb15e86eb966fb1c8f405ab85f.css?body=1" for 134.29.63.157 at 2018-04-27 18:24:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/assets/application.self-42ca2522d1f954108cf803f5d414773cbc2bc1a752c02c8278aa62908e2ec8f4.css?body=1" for 134.29.63.157 at 2018-04-27 18:24:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/assets/Sidebar-1e6ee0c1956db025390628fb677ac57abf1231eb7101005e5a01c83151b2db7a.png" for 134.29.63.157 at 2018-04-27 18:24:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/assets/MyAccount-0a324f38e07ea3bc638bf511a66a5a49c0d595a8bc8a90e20f3e3e643bf955ed.png" for 134.29.63.157 at 2018-04-27 18:24:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/assets/Search-988837744f93d7715ac6a262060a1d4dd4d7f2ae1838fcf720eb66bf4ce9f45b.png" for 134.29.63.157 at 2018-04-27 18:24:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/assets/Have-32d69aaad9fbc9ccf1ee683074b9ad3c63f3cb7e981ed748db4f8a123eb1e74b.png" for 134.29.63.157 at 2018-04-27 18:24:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/assets/Trades-280a515ec45999f6aed148568fe563c961db5fed89a04d77bf331eb2ec0c834b.png" for 134.29.63.157 at 2018-04-27 18:24:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/assets/Want-0a74bd953b45391c933ba50dd9dd869cec5ddf5a985fcfd1980448ce92774ca9.png" for 134.29.63.157 at 2018-04-27 18:24:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/auth/facebook/callback" for 134.29.63.157 at 2018-04-27 18:25:10 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-(facebook) Callback phase initiated.
-Processing by SessionsController#create as HTML
-  Parameters: {"provider"=>"facebook"}
-  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["provider", "facebook"], ["uid", "1973630482678036"]]
-  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
-  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("provider", "uid", "name", "oauth_token", "oauth_expires_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["provider", "facebook"], ["uid", "1973630482678036"], ["name", "Adam Fleischhacker"], ["oauth_token", "EAAWWaNkRls4BAPbZC1fqoQZBoLf3C2b1Wl9sZCvzMVP8bfS6N1iR90TmIPHF9OFBLZC5pyALGIClK57YfmPN1i0VIqrV7qZBhaxBZAgOZBK9PQGlECHmTTGOK3U4ebIFuaijKRgp9AOhlzylSQRv28eGhtManKXk3nl8wlTJ6RhYzvMHwtefQEZAutRB4torskt9ZAZCmCMAccEAZDZD"], ["oauth_expires_at", "2018-04-27 20:00:00.000000"], ["created_at", "2018-04-27 18:25:10.380702"], ["updated_at", "2018-04-27 18:25:10.380702"]]
-  [1m[36m (17.0ms)[0m  [1mcommit transaction[0m
-  [1m[35m (0.1ms)[0m  begin transaction
-  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
-Redirected to https://trade-stuff-afleischhacker.c9users.io/
-Completed 302 Found in 53ms (ActiveRecord: 18.9ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 18:25:10 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.4ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:25:14 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.4ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (23.5ms)
-  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 70ms (Views: 65.0ms | ActiveRecord: 1.2ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 18:25:23 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered home/show.html.haml within layouts/application (18.2ms)
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.3ms)
+Completed 200 OK in 446ms (Views: 420.8ms | ActiveRecord: 1.7ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:25:24 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.8ms)
-  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.8ms)
+Started GET "/assets/application.self-dc1cd91c01823dc42d8c31e35d86287f25237dc6130bfabe8af26637e25bc9b6.css?body=1" for 134.29.87.116 at 2018-05-01 21:10:26 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:26:31 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (6.8ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.5ms)
+Started GET "/home/item_page" for 134.29.87.116 at 2018-05-01 21:10:32 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant HomeController::Movie):
+  app/controllers/home_controller.rb:16:in `item_page'
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:26:44 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (5.7ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:26:57 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (11.6ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 73ms (Views: 71.1ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:29:33 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  Rendered home/users_account.html.haml within layouts/application (10.1ms)
-Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
-
-SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:21: syntax error, unexpected ')', expecting '='
-)).to_s);).to_s);; _hamlout.buf...
-  ^
-/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:23: syntax error, unexpected keyword_end, expecting ')'
-; end;; _hamlout.buffer << ("</tbo...
-     ^
-/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:29: syntax error, unexpected keyword_ensure, expecting ')'
-...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
-...                               ^
-/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:29: syntax error, unexpected keyword_end, expecting ')'
-...uffer.upper if @haml_buffer;end;
-...                               ^
-/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:32: syntax error, unexpected keyword_end, expecting ')'):
-  app/views/home/users_account.html.haml:21: syntax error, unexpected ')', expecting '='
-  app/views/home/users_account.html.haml:23: syntax error, unexpected keyword_end, expecting ')'
-  app/views/home/users_account.html.haml:29: syntax error, unexpected keyword_ensure, expecting ')'
-  app/views/home/users_account.html.haml:29: syntax error, unexpected keyword_end, expecting ')'
-  app/views/home/users_account.html.haml:32: syntax error, unexpected keyword_end, expecting ')'
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.1ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.9ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:30:19 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (6.3ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:31:27 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (6.5ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:31:57 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (6.5ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:32:48 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (8.2ms)
-  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:32:55 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.4ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.4ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:32:57 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.5ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 18:32:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:33:00 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.3ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (1.3ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:35:23 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.4ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (16.7ms)
-Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.4ms)
-
-ActionView::Template::Error (undefined method `item' for #<Userinfo:0x007f9eb8fcd380>):
-    21:         %td= user.email
-    22:         %td more(will be a link to users info)
-    23:         %td trade(will be a link to trade)
-    24:         %td= link_to "More about #{user.item}", home_users_account_path
-    25: 
-    26: /- = link_to 'Add new movie', new_movie_path
-    27: %p
-  app/views/home/users_account.html.haml:24:in `block in _app_views_home_users_account_html_haml___691374043318453620_70159815180620'
-  app/views/home/users_account.html.haml:17:in `_app_views_home_users_account_html_haml___691374043318453620_70159815180620'
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.4ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:35:36 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (7.7ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.6ms)
+Started GET "/home/item_page" for 134.29.87.116 at 2018-05-01 21:10:59 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant HomeController::Movie):
+  app/controllers/home_controller.rb:16:in `item_page'
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:35:43 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.3ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.9ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:35:44 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.6ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 32ms (Views: 30.4ms | ActiveRecord: 0.5ms)
+Started GET "/home/item_page" for 134.29.87.116 at 2018-05-01 21:11:40 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (4.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 132ms (Views: 127.6ms | ActiveRecord: 1.7ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:36:04 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (8.1ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:36:07 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.5ms)
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:15:30 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered home/show.html.haml within layouts/application (17.1ms)
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.6ms)
+Completed 200 OK in 388ms (Views: 372.3ms | ActiveRecord: 1.6ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:37:02 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.5ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (2.3ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 112ms (Views: 110.5ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:40:35 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/home/users_account" for 134.29.87.116 at 2018-05-01 21:16:02 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by HomeController#users_account as HTML
   [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (2.0ms)
+  Rendered home/users_account.html.haml within layouts/application (12.7ms)
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.6ms)
+Completed 200 OK in 43ms (Views: 38.0ms | ActiveRecord: 0.9ms)
 
 
-Started GET "/assets/home.self-437cbe380c610b882a72117028666b22b1edf4a21000a035c6778df1612cf542.css?body=1" for 134.29.63.157 at 2018-04-27 18:40:35 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:41:13 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.3ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/assets/home.self-7f845c143eb8a87b9dd2ea9707f623ca47f312b827b6ac1ab7c6afbdf1c2cfd1.css?body=1" for 134.29.63.157 at 2018-04-27 18:41:14 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:41:20 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.2ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.4ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:41:22 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.3ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.4ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:41:22 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.7ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:41:24 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.5ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.4ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 18:41:26 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:16:07 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:41:28 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.4ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (1.9ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 99ms (Views: 29.2ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:41:58 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.4ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (1.4ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/assets/home.self-0eb24486dc4209d7029c93440769d0d07058ff3260a31873c43d4ce7d9dd9b51.css?body=1" for 134.29.63.157 at 2018-04-27 18:41:58 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  [1m[35m (0.1ms)[0m  begin transaction
-  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "userinfos" DEFAULT VALUES[0m
-  [1m[35m (7.3ms)[0m  commit transaction
-  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
-  [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" DEFAULT VALUES
-  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:47:26 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.4ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (25.4ms)
-  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 462ms (Views: 445.1ms | ActiveRecord: 1.9ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 18:47:30 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
   Rendered home/show.html.haml within layouts/application (2.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:29:49 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 132ms (Views: 130.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-af70a4de130273fe8c2ba6f9d9c99e038bd1f1672eca1edaad358bf5d13ca53b.css?body=1" for 134.29.87.116 at 2018-05-01 21:29:49 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/images/hammer.jpg" for 134.29.87.116 at 2018-05-01 21:29:49 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/hammer.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.9) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.9) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.9) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  rack (1.6.9) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.9) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.1ms)
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:33:37 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 50ms (Views: 45.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:35:45 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.1ms)
   [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.2ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.2ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:47:36 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.3ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (1.6ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.5ms)
+Started GET "/assets/home.self-8a8c94e74ff1ce89b2f7d9cace8576a9b5509f3ae79867fc9a34e9935e48a921.css?body=1" for 134.29.87.116 at 2018-05-01 21:35:45 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:49:04 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.3ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (5.8ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 18:49:06 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:37:31 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by HomeController#show as HTML
   Rendered home/show.html.haml within layouts/application (0.1ms)
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.2ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.2ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:49:08 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.5ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.5ms)
+Started GET "/assets/home.self-01e0c723b1fc7a21dd714672d7f5e3c17f9efd52731913b229150a66c8707b9d.css?body=1" for 134.29.87.116 at 2018-05-01 21:37:32 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:49:22 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (41.1ms)
-Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.3ms)
-
-ActionView::Template::Error (undefined method `name' for #<Userinfo:0x007f2f62912380>
-Did you mean?  lname
-               fname):
-    17:     - @userinfos.each do |user|
-    18:       %tr
-    19:         %td= user.uid 
-    20:         %td= user.name
-    21:         %td= user.email
-    22:         %td= link_to "More about #{user.uid}", root_path
-    23:         %td trade(will be a link to trade)
-  app/views/home/users_account.html.haml:20:in `block in _app_views_home_users_account_html_haml___1576871803095734427_15116480'
-  app/views/home/users_account.html.haml:17:in `_app_views_home_users_account_html_haml___1576871803095734427_15116480'
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.7ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:49:32 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.3ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (9.4ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:49:46 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.5ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (6.9ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:52:02 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.4ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (5.7ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 18:53:46 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:37:47 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by HomeController#show as HTML
   Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 51ms (Views: 47.4ms | ActiveRecord: 1.3ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:53:49 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (9.4ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 41ms (Views: 37.0ms | ActiveRecord: 1.0ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:56:46 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.5ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (10.4ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:56:59 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  Rendered home/users_account.html.haml within layouts/application (3.2ms)
-Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
-
-ActionView::Template::Error (Inconsistent indentation: 1 space used for indentation, but the rest of the document was indented using 2 spaces.):
-    19:       %th Zip
-    20:       %th Country
-    21: /      %th More info
-    22:  /     %th Trading
-    23:   %tbody
-    24:     - @userinfos.each do |user|
-    25:       %tr
-  app/views/home/users_account.html.haml:22
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.0ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 18:57:23 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  Rendered home/users_account.html.haml within layouts/application (4.6ms)
   [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.2ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.2ms)
 
 
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:15:04 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/assets/home.self-11dbaa3d8f4ba9e75cf33388c2cd13f3b2def0cf2f5173c255d1297f78600cf9.css?body=1" for 134.29.87.116 at 2018-05-01 21:37:47 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:38:09 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (9.4ms)
+  Rendered home/show.html.haml within layouts/application (11.4ms)
   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 423ms (Views: 407.0ms | ActiveRecord: 1.1ms)
+Completed 200 OK in 469ms (Views: 447.3ms | ActiveRecord: 0.9ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:15:08 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  Rendered home/users_account.html.haml within layouts/application (7.9ms)
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:38:46 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.0ms)
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 40ms (Views: 36.4ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:17:19 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (14.7ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 1.0ms)
-  [1m[36m (10.1ms)[0m  [1mDROP TABLE "items"[0m
-  [1m[35m (8.5ms)[0m  CREATE TABLE "items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer, "item_name" varchar, "item_desc" varchar) 
-  [1m[36m (7.8ms)[0m  [1mDROP TABLE "trades"[0m
-  [1m[35m (9.6ms)[0m  CREATE TABLE "trades" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tid" varchar, "uid" varchar, "iid" varchar, "quantity" varchar) 
-  [1m[36m (10.1ms)[0m  [1mDROP TABLE "user_item_list"[0m
-  [1m[35m (8.7ms)[0m  CREATE TABLE "user_item_list" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer, "list_id" integer, "uid" varchar, "quantity" integer, "condition" varchar, "photo" varchar, "list_type" varchar) 
-  [1m[36m (8.1ms)[0m  [1mDROP TABLE "userinfos"[0m
-  [1m[35m (9.1ms)[0m  CREATE TABLE "userinfos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar, "fname" varchar, "lname" varchar, "email" varchar, "phone" varchar, "address" varchar, "city" varchar, "state" varchar, "zip" varchar, "country" varchar) 
-  [1m[36m (7.9ms)[0m  [1mDROP TABLE "users"[0m
-  [1m[35m (8.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
-  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
-  [1m[35m (10.1ms)[0m  DROP TABLE "items"
-  [1m[36m (8.6ms)[0m  [1mCREATE TABLE "items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer, "item_name" varchar, "item_desc" varchar) [0m
-  [1m[35m (7.2ms)[0m  DROP TABLE "trades"
-  [1m[36m (8.4ms)[0m  [1mCREATE TABLE "trades" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tid" varchar, "uid" varchar, "iid" varchar, "quantity" varchar) [0m
-  [1m[35m (9.5ms)[0m  DROP TABLE "user_item_list"
-  [1m[36m (8.6ms)[0m  [1mCREATE TABLE "user_item_list" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer, "list_id" integer, "uid" varchar, "quantity" integer, "condition" varchar, "photo" varchar, "list_type" varchar) [0m
-  [1m[35m (7.7ms)[0m  DROP TABLE "userinfos"
-  [1m[36m (7.6ms)[0m  [1mCREATE TABLE "userinfos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar, "fname" varchar, "lname" varchar, "email" varchar, "phone" varchar, "address" varchar, "city" varchar, "state" varchar, "zip" varchar, "country" varchar) [0m
-  [1m[35m (9.5ms)[0m  DROP TABLE "users"
-  [1m[36m (8.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
-  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
-  [1m[36m (7.9ms)[0m  [1mDROP TABLE "items"[0m
-  [1m[35m (8.1ms)[0m  CREATE TABLE "items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer, "item_name" varchar, "item_desc" varchar) 
-  [1m[36m (9.2ms)[0m  [1mDROP TABLE "trades"[0m
-  [1m[35m (8.5ms)[0m  CREATE TABLE "trades" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tid" varchar, "uid" varchar, "iid" varchar, "quantity" varchar) 
-  [1m[36m (6.9ms)[0m  [1mDROP TABLE "user_item_list"[0m
-  [1m[35m (7.9ms)[0m  CREATE TABLE "user_item_list" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer, "list_id" integer, "uid" varchar, "quantity" integer, "condition" varchar, "photo" varchar, "list_type" varchar) 
-  [1m[36m (6.8ms)[0m  [1mDROP TABLE "userinfos"[0m
-  [1m[35m (8.8ms)[0m  CREATE TABLE "userinfos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar, "fname" varchar, "lname" varchar, "email" varchar, "phone" varchar, "address" varchar, "city" varchar, "state" varchar, "zip" varchar, "country" varchar) 
-  [1m[36m (11.0ms)[0m  [1mDROP TABLE "users"[0m
-  [1m[35m (9.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
-  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
-  [1m[35m (10.4ms)[0m  DROP TABLE "items"
-  [1m[36m (7.5ms)[0m  [1mCREATE TABLE "items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer, "item_name" varchar, "item_desc" varchar) [0m
-  [1m[35m (7.0ms)[0m  DROP TABLE "trades"
-  [1m[36m (7.1ms)[0m  [1mCREATE TABLE "trades" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tid" varchar, "uid" varchar, "iid" varchar, "quantity" varchar) [0m
-  [1m[35m (14.9ms)[0m  DROP TABLE "user_item_list"
-  [1m[36m (8.6ms)[0m  [1mCREATE TABLE "user_item_list" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer, "list_id" integer, "uid" varchar, "quantity" integer, "condition" varchar, "photo" varchar, "list_type" varchar) [0m
-  [1m[35m (9.5ms)[0m  DROP TABLE "userinfos"
-  [1m[36m (8.3ms)[0m  [1mCREATE TABLE "userinfos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar, "fname" varchar, "lname" varchar, "email" varchar, "phone" varchar, "address" varchar, "city" varchar, "state" varchar, "zip" varchar, "country" varchar) [0m
-  [1m[35m (9.9ms)[0m  DROP TABLE "users"
-  [1m[36m (8.7ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
-  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  [1m[35m (0.1ms)[0m  begin transaction
-  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "userinfos" DEFAULT VALUES[0m
-  [1m[35m (10.5ms)[0m  commit transaction
-  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
-  [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" DEFAULT VALUES
-  [1m[36m (10.6ms)[0m  [1mcommit transaction[0m
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  [1m[35m (0.1ms)[0m  begin transaction
-  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "userinfos" DEFAULT VALUES[0m
-  [1m[35m (12.5ms)[0m  commit transaction
-  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
-  [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" DEFAULT VALUES
-  [1m[36m (12.1ms)[0m  [1mcommit transaction[0m
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:23:00 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (9.1ms)
-  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 500 Internal Server Error in 367ms (ActiveRecord: 1.0ms)
-
-ActiveRecord::RecordNotFound (Couldn't find User with 'id'=2):
-  app/controllers/application_controller.rb:6:in `current_user'
-  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___578882781914527435_46066440'
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.2ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:25:46 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.2ms)
-
-ActiveRecord::RecordNotFound (Couldn't find User with 'id'=2):
-  app/controllers/application_controller.rb:6:in `current_user'
-  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___578882781914527435_46066440'
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.4ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.4ms)
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  [1m[35m (0.2ms)[0m  begin transaction
-  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "userinfos" DEFAULT VALUES[0m
-  [1m[35m (10.1ms)[0m  commit transaction
-  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
-  [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" DEFAULT VALUES
-  [1m[36m (10.2ms)[0m  [1mcommit transaction[0m
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:27:06 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (9.5ms)
-  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 500 Internal Server Error in 343ms (ActiveRecord: 0.9ms)
-
-ActiveRecord::RecordNotFound (Couldn't find User with 'id'=2):
-  app/controllers/application_controller.rb:6:in `current_user'
-  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__492321489793516876_39920900'
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.2ms)
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  [1m[35m (0.1ms)[0m  begin transaction
-  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "userinfos" DEFAULT VALUES[0m
-  [1m[35m (11.5ms)[0m  commit transaction
-  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
-  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" DEFAULT VALUES
-  [1m[36m (12.1ms)[0m  [1mcommit transaction[0m
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:27:48 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (8.7ms)
-  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 500 Internal Server Error in 352ms (ActiveRecord: 0.9ms)
-
-ActiveRecord::RecordNotFound (Couldn't find User with 'id'=2):
-  app/controllers/application_controller.rb:6:in `current_user'
-  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__3622361534103917919_33979580'
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.2ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:29:18 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (8.5ms)
-  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 500 Internal Server Error in 351ms (ActiveRecord: 1.0ms)
-
-ActiveRecord::RecordNotFound (Couldn't find User with 'id'=2):
-  app/controllers/application_controller.rb:6:in `current_user'
-  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__2450291894413118894_31696760'
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.3ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:29:42 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (9.7ms)
-  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 500 Internal Server Error in 392ms (ActiveRecord: 0.9ms)
-
-ActiveRecord::RecordNotFound (Couldn't find User with 'id'=2):
-  app/controllers/application_controller.rb:6:in `current_user'
-  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___3731516330784336103_40938420'
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.3ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:30:19 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
-  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
-Completed 200 OK in 74ms (Views: 70.7ms | ActiveRecord: 1.2ms)
-
-
-Started GET "/auth/facebook/callback" for 134.29.63.157 at 2018-04-27 19:30:23 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-(facebook) Callback phase initiated.
-Processing by SessionsController#create as HTML
-  Parameters: {"provider"=>"facebook"}
-  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["provider", "facebook"], ["uid", "1973630482678036"]]
-  [1m[35m (0.1ms)[0m  begin transaction
-  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("provider", "uid", "name", "oauth_token", "oauth_expires_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["provider", "facebook"], ["uid", "1973630482678036"], ["name", "Adam Fleischhacker"], ["oauth_token", "EAAWWaNkRls4BAAmWWV4P7tdcvXEaqzMZBGdY2pFYv5ZBKDQLLMUZB9jfIyRzyjUATsoBVZCcx0RA6yorWZC4HW9JLILejkHL7VfofxNTAqAssoAIHjsI49jNUaBccBPIOaE89vZCKoeRHMYhjzuMZBC1IXZBaTKzkYji8jXHCewyt43dNc39NqRYbuQikZBiAbKAZD"], ["oauth_expires_at", "2018-04-27 21:00:00.000000"], ["created_at", "2018-04-27 19:30:23.635436"], ["updated_at", "2018-04-27 19:30:23.635436"]]
-  [1m[35m (10.6ms)[0m  commit transaction
-  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
-  [1m[35m (0.1ms)[0m  commit transaction
-Redirected to https://trade-stuff-afleischhacker.c9users.io/
-Completed 302 Found in 28ms (ActiveRecord: 11.8ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:30:23 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
 Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.2ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:30:26 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (28.4ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
-Completed 200 OK in 87ms (Views: 83.4ms | ActiveRecord: 0.9ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:32:35 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.9ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (17.8ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
-Completed 200 OK in 93ms (Views: 86.9ms | ActiveRecord: 2.2ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:32:38 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.6ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (2.9ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
-Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 0.8ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:32:58 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.6ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (8.5ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
-Completed 200 OK in 49ms (Views: 44.5ms | ActiveRecord: 1.8ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:33:11 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.5ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (8.7ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
-Completed 200 OK in 48ms (Views: 44.0ms | ActiveRecord: 1.7ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:33:13 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:40:08 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.3ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 34ms (Views: 29.9ms | ActiveRecord: 0.2ms)
+  Rendered home/show.html.haml within layouts/application (3.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.2ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:33:15 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.3ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (2.0ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:34:17 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:42:08 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
-Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:34:19 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[35mUserinfo Load (0.3ms)[0m  SELECT "userinfos".* FROM "userinfos"
-  Rendered home/users_account.html.haml within layouts/application (1.7ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
-Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:38:34 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.2ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:38:37 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.3ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (2.0ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:40:35 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.3ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (1.9ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:40:43 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.3ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (1.7ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:41:48 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.4ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (11.4ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:42:00 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
-Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:42:00 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:42:00 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
-Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/" for 134.29.63.157 at 2018-04-27 19:42:00 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#show as HTML
-  Rendered home/show.html.haml within layouts/application (0.1ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:42:02 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.4ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (2.2ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.5ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:44:01 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.6ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (9.6ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 50ms (Views: 45.2ms | ActiveRecord: 1.8ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:45:14 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  Rendered home/users_account.html.haml within layouts/application (8.7ms)
-Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
-
-SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:23: syntax error, unexpected keyword_do, expecting keyword_end
- @userinfos do |user|
-              ^
-/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:44: syntax error, unexpected keyword_ensure, expecting end-of-input):
-  app/views/home/users_account.html.haml:23: syntax error, unexpected keyword_do, expecting keyword_end
-  app/views/home/users_account.html.haml:44: syntax error, unexpected keyword_ensure, expecting end-of-input
-
-
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.3ms)
-
-
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:45:54 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  Rendered home/users_account.html.haml within layouts/application (5.2ms)
+  Rendered home/show.html.haml within layouts/application (4.5ms)
 Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
 
-SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:24: syntax error, unexpected ';'
-; _hamlout.buffer << ("<tr>\n<td>".freeze);; 
- ^
-/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:44: syntax error, unexpected keyword_ensure, expecting end-of-input):
-  app/views/home/users_account.html.haml:24: syntax error, unexpected ';'
-  app/views/home/users_account.html.haml:44: syntax error, unexpected keyword_ensure, expecting end-of-input
+SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:11: syntax error, unexpected '|', expecting keyword_end
+|-|-|-|-
+ ^):
+  app/views/home/show.html.haml:11: syntax error, unexpected '|', expecting keyword_end
 
 
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (40.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.1ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:46:09 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  Rendered home/users_account.html.haml within layouts/application (9.6ms)
-Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:45:37 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (10.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 397ms (Views: 383.9ms | ActiveRecord: 1.0ms)
 
-SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:44: syntax error, unexpected keyword_ensure, expecting end-of-input):
-  app/views/home/users_account.html.haml:44: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:47:26 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.2ms)
 
 
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:47:55 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (10.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 405ms (Views: 391.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:49:07 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:49:30 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-31c0c2f9a8677836ae7b393f6fdcabe223f72d1ff449297b2b5a299bcc089538.css?body=1" for 134.29.87.116 at 2018-05-01 21:49:31 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:49:40 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-bfffda7b778dc20856d66afcf149f37a1113870eec21ca25d58c76857adf2e4c.css?body=1" for 134.29.87.116 at 2018-05-01 21:49:41 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:49:51 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-4e3c38f78633a0ba5d6b7ea6b3d656a04693bfd2e26a0d3e32d96863a8977a85.css?body=1" for 134.29.87.116 at 2018-05-01 21:49:51 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:50:01 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-49e679a30e844a9e98896b45cb09dc18a9e3c4ef90eaa62cb3cde89fefbffb00.css?body=1" for 134.29.87.116 at 2018-05-01 21:50:02 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:51:06 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:52:13 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:54:30 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 57ms (Views: 55.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 134.29.87.116 at 2018-05-01 21:55:14 +0000
+Cannot render console from 134.29.87.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 01:52:46 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (10.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 1023ms (Views: 1008.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:12:54 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:15:16 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:33:38 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.0ms)
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 57ms (Views: 53.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:34:51 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Hammer-87a82af047e72b00f0b662c2f1712636b49763e9c9fc30301f7dcb66ff5cbfb7.jpg" for 68.232.232.70 at 2018-05-03 02:34:52 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:35:03 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 70ms (Views: 68.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:36:26 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:37:07 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (14.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `itp' for "Hammer.jpg":String):
+    2: 
+    3: Add stuff to this page!
+    4: %body
+    5:  = image_tag "Hammer.jpg".itp
+    6: %div.itpd Hammer
+    7: 
+    8: 
+  app/views/home/show.html.haml:5:in `_app_views_home_show_html_haml___787190784274351132_70173870951280'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.2ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:47:28 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  Rendered home/users_account.html.haml within layouts/application (6.4ms)
-Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:37:26 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.2ms)
 
-SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/users_account.html.haml:43: syntax error, unexpected keyword_ensure, expecting end-of-input):
-  app/views/home/users_account.html.haml:43: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:37:37 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:37:49 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:37:55 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:38:18 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-a557cc5ac6878fe6dc1f9dff01c25eb67cd7723789d92f7f82f2cfd750619205.css?body=1" for 68.232.232.70 at 2018-05-03 02:38:19 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:39:10 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:5: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...image_tag "Hammer.jpg", width "150px"
+...                               ^):
+  app/views/home/show.html.haml:5: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.8ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:39:57 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `symbolize_keys' for "150px":String):
+    2: 
+    3: Add stuff to this page!
+    4: %body
+    5: %div.itp= image_tag "Hammer.jpg", width="150px"
+    6: %div.itpd Hammer
+    7: 
+    8: 
+  app/views/home/show.html.haml:5:in `_app_views_home_show_html_haml___787190784274351132_70173890113580'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (53.1ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:41:56 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:42:14 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:42:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:5: unknown type of %string
+...ammer.jpg", width: "150px", %div.itpd Hammer
+...                               ^
+/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:5: syntax error, unexpected end-of-input
+...ammer.jpg", width: "150px", %div.itpd Hammer
+...                               ^):
+  app/views/home/show.html.haml:5: unknown type of %string
+  app/views/home/show.html.haml:5: syntax error, unexpected end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.5ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:42:30 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:42:50 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:44:53 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (380.3ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 495ms (Views: 472.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 02:45:01 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", nil]]
+Completed 404 Not Found in 4ms (ActiveRecord: 0.8ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=):
+  app/controllers/home_controller.rb:16:in `item_page'
 
 
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.2ms)
 
 
-Started GET "/home/users_account" for 134.29.63.157 at 2018-04-27 19:48:02 +0000
-Cannot render console from 134.29.63.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by HomeController#users_account as HTML
-  [1m[36mUserinfo Load (0.4ms)[0m  [1mSELECT "userinfos".* FROM "userinfos"[0m
-  Rendered home/users_account.html.haml within layouts/application (7.2ms)
-  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
-Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.6ms)
->>>>>>> e70ad0f6aae876c00045d6f50bed52763e603e76
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:45:38 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:6: syntax error, unexpected ':', expecting ')'
+...((link_to "Hammer", font-color: "blue", home_item_page_path
+...                               ^
+/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:6: syntax error, unexpected ',', expecting ')'
+...o "Hammer", font-color: "blue", home_item_page_path
+...                               ^):
+  app/views/home/show.html.haml:6: syntax error, unexpected ':', expecting ')'
+  app/views/home/show.html.haml:6: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.4ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:46:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered home/show.html.haml within layouts/application (60.8ms)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined local variable or method `font' for #<#<Class:0x00000004b444f8>:0x007feb36311b58>):
+    3: Add stuff to this page!
+    4: %body
+    5: %div.itp= link_to image_tag("Hammer.jpg", width: "150px"), home_item_page_path
+    6: %div.itpd= link_to "Hammer", font-color="blue", home_item_page_path
+    7: 
+    8: 
+    9: 
+  app/views/home/show.html.haml:6:in `_app_views_home_show_html_haml___4131910450982475164_70324101612420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.0ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:47:00 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:47:29 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-7ea1c1126adcf7dcfc3d99ed4e998c6eb1bf4cd9f0acc8c6ef7bd1056d4219bd.css?body=1" for 68.232.232.70 at 2018-05-03 02:47:29 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:48:14 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:6: syntax error, unexpected '\n', expecting =>
+/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:7: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:7: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                               ^
+/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:10: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/home/show.html.haml:6: syntax error, unexpected '\n', expecting =>
+  app/views/home/show.html.haml:7: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/home/show.html.haml:7: syntax error, unexpected keyword_end, expecting ')'
+  app/views/home/show.html.haml:10: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.3ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:48:33 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:6: syntax error, unexpected ',', expecting ')'
+...k_to("Hammer", margin: "10px"), home_item_page_path
+...                               ^):
+  app/views/home/show.html.haml:6: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.4ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:48:48 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:49:32 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 02:49:34 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", nil]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=):
+  app/controllers/home_controller.rb:16:in `item_page'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.5ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:50:01 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-397b947d2fa27cc17bf4c8f4575a9a96ff6dad09832e744a8fa3516209e1fba6.css?body=1" for 68.232.232.70 at 2018-05-03 02:50:02 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:50:12 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-8d4f9a6260817ddfbeb38d776343278e724afe2cb4df45c566f6b3be867f5e3d.css?body=1" for 68.232.232.70 at 2018-05-03 02:50:12 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:50:32 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-897fc41dfd2fa0ebb52a36776d5c099906673cf0496846f754b62178633a55f4.css?body=1" for 68.232.232.70 at 2018-05-03 02:50:32 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:50:46 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-6314aa5ef469a2d650364cb3fdbe8c0243141e5065f5412c4a0deefec4ecd8ef.css?body=1" for 68.232.232.70 at 2018-05-03 02:50:47 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:52:17 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (7.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-abcb60d5b67e44425772ae04ac6d3e7c1458c0af18340541ea418c9fc097c701.css?body=1" for 68.232.232.70 at 2018-05-03 02:52:17 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 02:52:23 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", nil]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=):
+  app/controllers/home_controller.rb:16:in `item_page'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:52:51 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:54:20 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:6: syntax error, unexpected '\n', expecting =>
+/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:7: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:7: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                               ^
+/home/ubuntu/workspace/TradeStuff-App/tradestuff/app/views/home/show.html.haml:10: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/home/show.html.haml:6: syntax error, unexpected '\n', expecting =>
+  app/views/home/show.html.haml:7: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/home/show.html.haml:7: syntax error, unexpected keyword_end, expecting ')'
+  app/views/home/show.html.haml:10: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.9ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:54:33 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (7.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:56:42 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-146cf2653da8372facde060fe854ab7178d99ae1eceb386bd4a141a918c8a1bc.css?body=1" for 68.232.232.70 at 2018-05-03 02:56:42 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Sammy-e9ce73eab28215ab75c7e2c7e22fdbe4e8b3f58128f1aff1c224f99e01ec5b77.jpg" for 68.232.232.70 at 2018-05-03 02:56:43 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:58:30 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-fb34bf947e6ff8c47be7ac205e5d6bc1a72f2a46076cc0c9000b612dccac5503.css?body=1" for 68.232.232.70 at 2018-05-03 02:58:30 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:59:02 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-b64adaf064dbb8ca91a5454e2530464d8cf415f4965f9bf2cda49da098d69122.css?body=1" for 68.232.232.70 at 2018-05-03 02:59:02 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:59:25 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-88932472adb8ec662140877815023ba17d69b2a04f27b3da9871d68ae3e130a5.css?body=1" for 68.232.232.70 at 2018-05-03 02:59:25 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 02:59:44 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-fa8bceb38b911051a21e7938d8ebe604e15264728c146d72080e81f3dd1cb7cd.css?body=1" for 68.232.232.70 at 2018-05-03 02:59:44 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:00:04 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (7.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:00:28 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 225ms (Views: 224.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-d261bba03d2f1cb66ebcc5659906b3b402db9611e020b2275b75e8c61d692f99.css?body=1" for 68.232.232.70 at 2018-05-03 03:00:29 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:00:39 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 57ms (Views: 55.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-b79dfac708c1a24d47fc9b69d0cf71caadeaa8046ce390f556527323ff72b4ce.css?body=1" for 68.232.232.70 at 2018-05-03 03:00:39 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:00:48 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-18447147118b6e277ef032e2d983a98c70587185cb4e33095d2d894e7864a8bd.css?body=1" for 68.232.232.70 at 2018-05-03 03:00:49 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:00:57 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-1500591a77449d3cb0a830cf7630617dd247c2c1862fba53dec67de79aaed074.css?body=1" for 68.232.232.70 at 2018-05-03 03:00:57 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:01:10 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-3377b51e671b605ef9dce4e3a49ca4e075cbbfe8649246b0ddaf73cca5518927.css?body=1" for 68.232.232.70 at 2018-05-03 03:01:11 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:01:20 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-9a710fa0f31d4ad17a0bcae5c7aa4f16dff4b05cf7ff9160507293c9b9cf1da9.css?body=1" for 68.232.232.70 at 2018-05-03 03:01:20 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:01:31 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (2.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-1950f9fff2e5d9ca95e90f527b63ced262e1ddf3b16663b0c32cb0a7384795b5.css?body=1" for 68.232.232.70 at 2018-05-03 03:01:32 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:01:41 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (3.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e8a04d82775126ee8aa7d456938b61560a1e0f3a7bbaae0cb49b279ade034922.css?body=1" for 68.232.232.70 at 2018-05-03 03:01:41 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:03:49 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (97.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 171ms (Views: 169.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e7ce1c3bae97b934ae5d9cc6fcaa52627e3ae0f79fab6fe6e376ae66b8c90eba.css?body=1" for 68.232.232.70 at 2018-05-03 03:03:49 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Phillips-9becb1a09c209a1ac7c9448a7638355413be81a0d36dd62b7a776605ba912ac7.jpg" for 68.232.232.70 at 2018-05-03 03:03:49 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Flathead-bd20fa197205d101d4b7de305fb4e4a44c69ee5f701e18d5123a59a1533e00ce.jpg" for 68.232.232.70 at 2018-05-03 03:03:50 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:04:39 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-c48436f643e85f55f02916296a97502996bd902e0d2b5039ae1d955d0873f203.css?body=1" for 68.232.232.70 at 2018-05-03 03:04:39 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:05:25 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (16.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 59ms (Views: 57.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:05:43 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (14.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:06:13 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-1b345322627bad8f035c4c137b7ebe37597305048d8bd1fad3486a9eff3fa31d.css?body=1" for 68.232.232.70 at 2018-05-03 03:06:14 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:06:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-6e49afa83ec23eeffc7315ed8326a9b24b2f1e66a9ba15351804525e0f916c9a.css?body=1" for 68.232.232.70 at 2018-05-03 03:06:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:06:42 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 71ms (Views: 69.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-4354cbd59270c69f6baf3a468ac9b18920a0fee581919b36a86210fffd5a25ac.css?body=1" for 68.232.232.70 at 2018-05-03 03:06:42 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:07:29 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-33f189465f08814145a2b71cbb7909873d99c1218ee8472bbec42c0c25ed0135.css?body=1" for 68.232.232.70 at 2018-05-03 03:07:29 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:07:46 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-1a3d091ed5a8f4aec29ff9b4cce306ae40d8bca941760889c3c38c6384262825.css?body=1" for 68.232.232.70 at 2018-05-03 03:07:46 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:09:04 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-a39a8d8d68c7abe83a2b0d910541dcbd90920edf749ad24d2041684b7c778e71.css?body=1" for 68.232.232.70 at 2018-05-03 03:09:05 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:09:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-c3ad9bb63d467236b89fd9f86034115de60dab5b9a356f2bb323a8e5179b98ea.css?body=1" for 68.232.232.70 at 2018-05-03 03:09:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:09:38 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-b71793ae33a8dc0f629144d93003a58629f4e37ae4d0b3307bab70a80f77f89b.css?body=1" for 68.232.232.70 at 2018-05-03 03:09:38 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:10:10 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-84f54598fd1de060994422ccc6f92f649d039befc383b4de48dfe342f8b187d4.css?body=1" for 68.232.232.70 at 2018-05-03 03:10:11 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:10:40 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-911c4c9f252fef5fedfa5c954e0eaca0d3c12071048c665640bbfd50c0cadaa5.css?body=1" for 68.232.232.70 at 2018-05-03 03:10:40 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:11:18 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-5cc7712c39e0fce16b6a870339185e55d1ae0728ac543815a366fc86147cd080.css?body=1" for 68.232.232.70 at 2018-05-03 03:11:18 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:11:38 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-25a97171618ae8f116768726ad40e4dc8a682ab32e41e0e6d73c87e9107b2e2c.css?body=1" for 68.232.232.70 at 2018-05-03 03:11:38 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:11:52 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:12:14 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:12:38 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-0f381ff0c739113f7ef05bbaa22f9f5deb32e8c19bda66ee5f75aea76d8ba6c5.css?body=1" for 68.232.232.70 at 2018-05-03 03:12:39 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:13:04 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-dbfbffc68feb4018736341fe3326ca29b8eaf3415f1858df5e40ecd03069e5d7.css?body=1" for 68.232.232.70 at 2018-05-03 03:13:04 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:13:22 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-691cdce0959f21d92b66491c7745639830537a8ec06270c751ed8ec2126a0349.css?body=1" for 68.232.232.70 at 2018-05-03 03:13:22 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:13:47 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-c99f992bce2bfdaceda108fa1a3733e915fb65e72c182bc4c3623e373cb46b09.css?body=1" for 68.232.232.70 at 2018-05-03 03:13:47 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:13:56 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (9.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-18b06a078ee7ac1fe97d021a3ad0fb4b9c525e8eb62db78e888390851f1b08f7.css?body=1" for 68.232.232.70 at 2018-05-03 03:13:57 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:14:22 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (6.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-208e6d22072d8c6b45adcfb02d832f7009cd78446f1ce2a1d749c7fa8f867049.css?body=1" for 68.232.232.70 at 2018-05-03 03:14:22 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:14:32 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-c665447a8883681731f50a25eacf2eb686c344d2031fdc4f1544342f8d6caa74.css?body=1" for 68.232.232.70 at 2018-05-03 03:14:32 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:24:20 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (365.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 449ms (Views: 435.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:24:25 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (3.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:24:31 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item1" for 68.232.232.70 at 2018-05-03 03:24:32 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item1 as HTML
+  Rendered home/item1.html.haml within layouts/application (3.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:24:36 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item2" for 68.232.232.70 at 2018-05-03 03:24:37 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item2 as HTML
+  Rendered home/item2.html.haml within layouts/application (3.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:24:38 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item3" for 68.232.232.70 at 2018-05-03 03:24:38 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item3 as HTML
+  Rendered home/item3.html.haml within layouts/application (4.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:24:40 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:25:50 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (9.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:26:23 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (8.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:31:23 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (3.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e05427bfc97975f4cbd4014e7034f7c6add0363509d2a3bc05823e939b9b7778.css?body=1" for 68.232.232.70 at 2018-05-03 03:31:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:31:53 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-6918ec6354dc4406c59527c41d0019257c0099823457ee253a658b5904a4c02e.css?body=1" for 68.232.232.70 at 2018-05-03 03:31:53 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:32:04 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-8f21002dc593c050d8a5ea2d8f249b0b0a8befe9f2f022b13b08a45a0a379113.css?body=1" for 68.232.232.70 at 2018-05-03 03:32:05 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:32:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-2f502ef318c634895f586d0db256e023060b4879d0006d13f9f5773f53f643c9.css?body=1" for 68.232.232.70 at 2018-05-03 03:32:25 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:32:58 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (6.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:33:37 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-a45f2a64962fe7cd63073ff326e8094bbbd8fbe71e5c29bebf492074b65e326c.css?body=1" for 68.232.232.70 at 2018-05-03 03:33:37 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:33:53 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-c1a08008ffe5259e02de7563fa49511a59d8011337ca3e6166996f8e40e1364a.css?body=1" for 68.232.232.70 at 2018-05-03 03:33:53 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:34:12 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-ffacb8ccc9be9dba8b438a4fe283476f53c6ce1378b3f73c41c5a4d9d7ed3945.css?body=1" for 68.232.232.70 at 2018-05-03 03:34:12 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:34:26 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:34:39 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-1e804e5a4a233b30e15ff626af31a4303d6883ad23043edc2b731fc8282cc97a.css?body=1" for 68.232.232.70 at 2018-05-03 03:34:39 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:34:49 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-d38121a6e52b60bfec9120b06720e0c4a48aba2335be153c1a3ff48196cc1794.css?body=1" for 68.232.232.70 at 2018-05-03 03:34:49 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:35:01 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-020e048ed4616d29f8ad9f59269767d19e0cb27f7107eea2361567b38acde5f5.css?body=1" for 68.232.232.70 at 2018-05-03 03:35:01 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:35:11 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-4a49309ae30e1d0aaaf913d838968df5a5c02c6769ad37da16b4b1e4ad4c21c1.css?body=1" for 68.232.232.70 at 2018-05-03 03:35:11 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:35:19 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:35:26 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:35:50 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (2.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-784e7a2d5566d4bfc3627701722b9582b5e5bab14c1b8ae56da12bfbe8189d46.css?body=1" for 68.232.232.70 at 2018-05-03 03:35:50 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:36:02 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-97c5d7484233a4d925ff231463ad50860730ec6ffd3834c81a7206b5b0beb235.css?body=1" for 68.232.232.70 at 2018-05-03 03:36:02 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:36:16 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-54c18ef52ab6c7ccd75bd86a0e21698cef335e3044176a2b7082abd7574aabfa.css?body=1" for 68.232.232.70 at 2018-05-03 03:36:17 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:36:23 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (2.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 168ms (Views: 166.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e76599f12c1858b06d5a73cfcc7b10e0b127d9cfc9ba37a32d30e07ea2f16635.css?body=1" for 68.232.232.70 at 2018-05-03 03:36:23 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:36:31 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-ed9fed9b357727afe1f720bcbb6af2b4fc2074fc875a882b72948b83ee24d238.css?body=1" for 68.232.232.70 at 2018-05-03 03:36:31 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:36:42 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-3fe9df08b6ed595d25d6758bc32432a4b1e507459bc387c15a7498d976289b5f.css?body=1" for 68.232.232.70 at 2018-05-03 03:36:43 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:37:06 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (7.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:37:25 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (6.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:38:59 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (6.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-cbd84003eba18039c759c2ba7e211be1ea5d2c1cf49da308d98f4460c99c33fa.css?body=1" for 68.232.232.70 at 2018-05-03 03:38:59 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:39:17 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-88676d1e24ee1b65000166b912f6e18c4c960fccc92240501ea96ef924d1c153.css?body=1" for 68.232.232.70 at 2018-05-03 03:39:17 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:40:11 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item1" for 68.232.232.70 at 2018-05-03 03:40:12 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item1 as HTML
+  Rendered home/item1.html.haml within layouts/application (5.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:40:14 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item2" for 68.232.232.70 at 2018-05-03 03:40:15 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item2 as HTML
+  Rendered home/item2.html.haml within layouts/application (6.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:40:17 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item3" for 68.232.232.70 at 2018-05-03 03:40:18 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item3 as HTML
+  Rendered home/item3.html.haml within layouts/application (6.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:40:19 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (5.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:40:20 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:40:22 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item1" for 68.232.232.70 at 2018-05-03 03:40:23 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item1 as HTML
+  Rendered home/item1.html.haml within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:40:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:40:24 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:40:25 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item1" for 68.232.232.70 at 2018-05-03 03:40:59 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item1 as HTML
+  Rendered home/item1.html.haml within layouts/application (5.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:41:00 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item1" for 68.232.232.70 at 2018-05-03 03:41:03 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item1 as HTML
+  Rendered home/item1.html.haml within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:41:16 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:41:17 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:46:58 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item1" for 68.232.232.70 at 2018-05-03 03:47:03 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item1 as HTML
+  Rendered home/item1.html.haml within layouts/application (6.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:47:05 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:47:06 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (5.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:47:07 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item2" for 68.232.232.70 at 2018-05-03 03:47:08 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item2 as HTML
+  Rendered home/item2.html.haml within layouts/application (17.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:47:10 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item3" for 68.232.232.70 at 2018-05-03 03:47:11 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item3 as HTML
+  Rendered home/item3.html.haml within layouts/application (6.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:47:14 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item1" for 68.232.232.70 at 2018-05-03 03:47:14 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item1 as HTML
+  Rendered home/item1.html.haml within layouts/application (1.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:47:15 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item2" for 68.232.232.70 at 2018-05-03 03:47:16 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item2 as HTML
+  Rendered home/item2.html.haml within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:47:17 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/item_page" for 68.232.232.70 at 2018-05-03 03:47:18 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#item_page as HTML
+  Rendered home/item_page.html.haml within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 68.232.232.70 at 2018-05-03 03:47:19 +0000
+Cannot render console from 68.232.232.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendered home/show.html.haml within layouts/application (4.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.2ms)

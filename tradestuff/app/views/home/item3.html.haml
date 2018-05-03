@@ -1,0 +1,13 @@
+%h1 Items
+
+/= form_tag alll_path do
+/- @items.each do |it|
+%div.itemcard
+  %div.ipic= image_tag "Flathead.jpg", width: "175px", height: "120px"
+  %div.iuser User: Jordan Mullan
+  %div.iquan Qty: 1
+  %div.iname Flathead screwdriver
+  %div.idesc Description: Large screwdriver with a flat head used to screw in screws.
+
+
+/- = link_to 'Add new movie', new_movie_path

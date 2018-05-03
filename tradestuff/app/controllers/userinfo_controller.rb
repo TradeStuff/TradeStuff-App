@@ -13,7 +13,6 @@ class UserinfoController < ApplicationController
   def index
    @userinfos = Userinfo.all
   end
-  
   def create
     @userinfo = Userinfo.create!(params[:userinfo])
     flash[:notice] = "#{@userinfo.title} was successfully created."

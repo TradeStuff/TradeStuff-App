@@ -1,14 +1,17 @@
 %h1 Tradestuff
 
 Add stuff to this page!
+%body
+%div.itp= link_to image_tag("Hammer.jpg", width: "150px", height: "100px"), home_item_page_path
+%div.itpd= link_to "Hammer", home_item_page_path
 
-%table#users
-  %thead
-    %tr
-      %th Name
-      %th More about
-  %tbody
-    - @items.each do |it|
-      %tr
-        %td= it.item_name 
-        %td= link_to "More about #{it.item_name}", home_item_page_path(@item)
+%div.itp1= link_to image_tag("Sammy.jpg", width: "150px", height: "100px"), home_item1_path
+%div.itpd1= link_to "Sandwich", home_item1_path
+
+%div.itp2= link_to image_tag("Phillips.jpg", width: "150px", height: "100px"), home_item2_path
+%div.itpd2= link_to "Phillips head", home_item2_path
+
+%div.itp3= link_to image_tag("Flathead.jpg", width: "150px", height: "100px"), home_item3_path
+%div.itpd3= link_to "Flat head", home_item3_path
+
+
